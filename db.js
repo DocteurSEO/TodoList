@@ -3,9 +3,9 @@ const {Sequelize} = require ('sequelize');
 
 //on crée une constante avec les infos de config de la bd
 const dbConfig = {
-    namedb: 'meldb',
-    user: 'mel',
-    password: 'mel',
+    namedb: 'todolist',
+    user: 'amine',
+    password: 'amine',
 };
 
 // on crée une instance sequelize qui sert à se connecter à la bd
