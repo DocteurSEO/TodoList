@@ -17,14 +17,14 @@ const db = new Sequelize(
 );
 
 // on test la connection à la base de données
-async function test() {
-    try {
-       await db.authenticate();
-       console.log("YES, on est connecté :)");
-    } catch (error) {
-       console.log('DOMMAGE, pas connecté :() ', error);
-    }
-}
-test();
+// async function test() {
+//     try {
+//        await db.authenticate();
+//        console.log("YES, on est connecté :)");
+//     } catch (error) {
+//        console.log('DOMMAGE, pas connecté :() ', error);
+//     }
+// }
+// test();
 
 module.exports = db;
